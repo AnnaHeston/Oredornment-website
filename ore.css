@@ -1,0 +1,284 @@
+﻿
+
+
+/*Nav*/
+
+
+
+nav {
+	list-style-type:none;
+	padding:0;
+	width: 100%;
+	text-align: center;
+}
+
+nav ul {
+	font-family: 'Calligraffitti', cursive;
+	font-size: 25px;
+	list-style-type: none;
+	overflow: hidden;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+}
+ 
+nav li {
+	color: #000;
+	display: inline-block;
+	padding: 10px 40px;
+}
+
+nav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+
+nav li a:hover {
+    background-color: #a2a2a2;
+	color: #000;
+}
+
+.supportnav ul {
+	font-family: 'Calligraffitti', cursive;
+	font-size: 25px;
+	list-style-type: none;
+	overflow: hidden;
+	background-color: #000;
+	text-align: center;
+	width: 100%;
+	margin: auto;
+	padding: 25px;
+}
+
+.supportnav li {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 40px;
+}
+
+.supportnav li a {
+    display: inline-block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.supportnav li a:hover {
+    background-color: #000;
+	color: #fff;
+}
+
+
+
+
+@media screen and (max-width : 760px){
+
+	li {
+		margin-bottom: 1px;
+	}
+	ul li, li a {
+		width: 100%;
+	}
+}
+
+/* END Nav*/
+
+.divider {
+
+display: block;
+position: relative;
+padding: 0;
+margin: 8px auto 15px;
+width: 80%;
+clear: both;
+border: none;
+border-top: 1px solid #000;
+border-bottom: 1px solid #fff;
+font-size: 1px;
+line-height: 0;
+overflow: visible;
+}
+
+/* Scroller */
+
+#scroller {
+		position: relative;
+		margin: 0;
+    }
+    #scroller .innerScrollArea {
+        overflow: hidden;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #scroller ul {
+        padding: 0;
+        margin: 0;
+        position: relative;
+		text-align:center;
+    }
+    #scroller li {
+        padding: 0;
+        margin: 0;
+        list-style-type: none;
+        position: absolute;
+	}
+	
+	#scroller li:first-child {
+		background: url("./images/ore1.jpg") no-repeat;
+		background-size: 100%;
+    }
+	
+	#scroller li p {
+		margin: 200px;
+	}
+	
+/*Our Story*/
+
+.background {
+  background: url("./images/white-painted-concrete-wall-888895_1920.jpg");
+  position: relative;
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+ 
+}
+#necklacepic {
+	width: 100%;
+	text-align: center;
+	margin: 30px;
+}
+
+#necklace {
+	width:30%;
+	border-radius: 50%;
+}
+
+#container {
+	width:100%;
+	text-align: center;
+}
+ #header1 {
+	 margin: 0 20% 0 25%;
+	 	 
+
+ }
+#storytitle {
+	font-size: 35px;
+	font-family: 'Calligraffitti', cursive;
+	
+}
+
+#story {
+	font-size: 25px;
+	font-family: 'Open Sans', sans serif;
+}
+
+#signature {
+	font-size: 30px;
+	font-family: 'Calligraffitti', cursive;
+	font-weight: bold;
+}
+/*Gallery*/
+
+div.img {
+    margin: 15px;
+    float: left;
+    width: 300px;
+}
+
+div.img:hover {
+    
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+.img-zoom {
+    width: 500px;
+    -webkit-transition: all .2s ease-in-out;
+    -moz-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    -ms-transition: all .2s ease-in-out;
+}
+ 
+.transition {
+    -webkit-transform: scale(2); 
+    -moz-transform: scale(2);
+    -o-transform: scale(2);
+    transform: scale(2);
+}
+
+/*Contact*/
+
+form.email p {
+font-size: 15px;
+padding: 0 0 10px 0;
+margin: 0;
+}
+
+form.email input, form.email textarea {
+font-family: Arial;
+font-size: 15px;
+margin: 0 0 20px 0;
+}
+
+form.email input {
+background: #f5f5f5;
+padding: 5px;
+border: 1px solid #bbb;
+border-radius: 5px;
+}
+
+form.email textarea {
+background: #f5f5f5;
+padding: 5px;
+border: 1px solid #bbb;
+border-radius: 5px;
+width: 400px;
+height: 250px;
+}
+
+form.email input.send {
+color: #fff;
+background: #222;
+border: #000;
+padding: 10px 25px 10px 25px;
+cursor: pointer;
+}
+	
+/*Footer*/
+
+footer {
+
+  font-size: 0.75ems;
+  text-align: right;
+  clear: both;
+  padding-top: 10px;
+  padding-right:40px;
+  padding-left: 0px;
+  color:#ccc;
+  width: 100%;
+  background-color: #000;
+ 
+}
+
+.social-icon {
+  width: 40px;
+  height: 40px;
+  margin: 0 5px;
+  

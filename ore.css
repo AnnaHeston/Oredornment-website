@@ -86,14 +86,21 @@ nav li a:hover {
 	}
 }
 
-/* END Nav*/
+/* END Nav*/ 
 
+#subheading {
+	text-align: center;
+	font-family: 'Calligraffitti', cursive;
+	margin-left: 40px;
+	color: #b74900;
+	margin-bottom: -50px;
+}
 .divider {
 
 display: block;
 position: relative;
 padding: 0;
-margin: 8px auto 15px;
+margin: 30px auto 15px;
 width: 80%;
 clear: both;
 border: none;
@@ -131,14 +138,7 @@ overflow: visible;
         position: absolute;
 	}
 	
-	#scroller li:first-child {
-		background: url("./images/ore1.jpg") no-repeat;
-		background-size: 100%;
-    }
 	
-	#scroller li p {
-		margin: 200px;
-	}
 	
 /*Our Story*/
 
@@ -224,6 +224,7 @@ div.desc {
 }
 
 /*Contact*/
+
 
 form.email p {
 font-size: 15px;

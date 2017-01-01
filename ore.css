@@ -1,5 +1,23 @@
 ﻿
 
+/*Cover Image*/
+
+.cover {
+	background-image: url("./images/rocks.png");
+	width:100%;
+	height: 300px;
+	background-size:cover;
+	
+}
+
+.text-center {
+	text-align: right;
+	color: #fd4703;
+	font-family: 'Calligraffitti', cursive;
+	font-size: 80px;
+	padding: 200 50 0 0;
+}
+
 
 /*Nav*/
 
@@ -10,6 +28,8 @@ nav {
 	padding:0;
 	width: 100%;
 	text-align: center;
+	
+	
 }
 
 nav ul {
@@ -51,7 +71,7 @@ nav li a:hover {
 	text-align: center;
 	width: 100%;
 	margin: auto;
-	padding: 25px;
+	/*padding: 25px;*/
 }
 
 .supportnav li {
@@ -111,9 +131,113 @@ line-height: 0;
 overflow: visible;
 }
 
+/*Slideshow*/
+
+/* Slideshow container */
+.slideshow-row {
+  min-width: 45%;
+  max-width: 45%;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+/* Caption text */
+.text {
+  color: #000;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor:pointer;
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+.sidetext {
+	font-family: 'Roboto', sans-serif;
+	padding-top: 40px;
+}
+
+.sidetext h1 {
+	font-size: 40px;
+	
+}
+
+.sidetext ul {
+	font-size: 20px;
+}
+
 /* Scroller */
 
-#scroller {
+/*#scroller {
 		position: relative;
 		margin: 0;
     }
@@ -136,16 +260,16 @@ overflow: visible;
         margin: 0;
         list-style-type: none;
         position: absolute;
-	}
+	}*/
 	
 	
 	
 /*Our Story*/
 
 .background {
-  background: url("./images/white-painted-concrete-wall-888895_1920.jpg");
+  /*background: url("./images/white-painted-concrete-wall-888895_1920.jpg");
   position: relative;
-  background-size: cover;
+  background-size: cover;*/
   width: 100%;
   text-align: center;
  
@@ -153,7 +277,7 @@ overflow: visible;
 #necklacepic {
 	width: 100%;
 	text-align: center;
-	margin: 30px;
+	
 }
 
 #necklace {
@@ -161,24 +285,37 @@ overflow: visible;
 	border-radius: 50%;
 }
 
-#container {
-	width:100%;
-	text-align: center;
-}
  #header1 {
-	 margin: 0 20% 0 25%;
-	 	 
-
+	margin: auto;
+	padding-top: 50px;
+	text-align: center;
+	width: 75%;
  }
+ 
+ 
+ 
+ 
 #storytitle {
 	font-size: 35px;
-	font-family: 'Calligraffitti', cursive;
+	font-family: 'Roboto', sans-serif;
 	
 }
 
 #story {
 	font-size: 25px;
 	font-family: 'Open Sans', sans serif;
+}
+
+#profilepics {
+	padding-left: 185px;
+}
+
+#profilepics li {
+	float: left;
+	list-style-type: none;
+	padding-bottom: 50px;
+	text-align: center;
+	
 }
 
 #signature {
@@ -188,10 +325,16 @@ overflow: visible;
 }
 /*Gallery*/
 
+section.gal {
+	text-align: center;
+	
+}
 div.img {
     margin: 15px;
-    float: left;
     width: 300px;
+	float: left;
+	text-align: center;
+
 }
 
 div.img:hover {

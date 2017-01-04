@@ -326,22 +326,18 @@ overflow: visible;
 /*Gallery*/
 
 section.gal {
-	text-align: center;
+	margin: 50px auto;
 	
 }
-div.img {
-    margin: 15px;
-    width: 300px;
+div.galImg {
+    width: 23.8%;
 	float: left;
 	text-align: center;
 
 }
 
-div.img:hover {
-    
-}
 
-div.img img {
+div.galImg img {
     width: 100%;
     height: auto;
 }
@@ -351,20 +347,7 @@ div.desc {
     text-align: center;
 }
 
-.img-zoom {
-    width: 500px;
-    -webkit-transition: all .2s ease-in-out;
-    -moz-transition: all .2s ease-in-out;
-    -o-transition: all .2s ease-in-out;
-    -ms-transition: all .2s ease-in-out;
-}
- 
-.transition {
-    -webkit-transform: scale(2); 
-    -moz-transform: scale(2);
-    -o-transform: scale(2);
-    transform: scale(2);
-}
+
 
 /*Contact*/
 

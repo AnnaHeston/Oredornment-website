@@ -16,6 +16,7 @@
 	font-family: 'Calligraffitti', cursive;
 	font-size: 80px;
 	padding: 200 50 0 0;
+	text-shadow: 1px 1px #ff0000;
 }
 
 
@@ -296,22 +297,18 @@ overflow: visible;
  
  
 #storytitle {
-	font-size: 35px;
+	font-size: 25px;
 	font-family: 'Roboto', sans-serif;
 	
 }
 
 #story {
 	font-size: 25px;
-	font-family: 'Open Sans', sans serif;
-}
-
-#profilepics {
-	padding-left: 185px;
+	font-family: 'Roboto', sans-serif;
 }
 
 #profilepics li {
-	float: left;
+	display: inline-block;
 	list-style-type: none;
 	padding-bottom: 50px;
 	text-align: center;
@@ -327,12 +324,13 @@ overflow: visible;
 
 section.gal {
 	margin: 50px auto;
+	height: 200px;
 	
 }
 div.galImg {
-    width: 23.8%;
 	float: left;
 	text-align: center;
+
 
 }
 
@@ -340,6 +338,7 @@ div.galImg {
 div.galImg img {
     width: 100%;
     height: auto;
+	box-shadow: 5px 5px 5px #888888
 }
 
 div.desc {
@@ -351,6 +350,22 @@ div.desc {
 
 /*Contact*/
 
+#contactbox {
+	margin: 50px auto;
+	height: 600px;
+}
+
+#mailer {
+	border: solid 1px black;
+	width: 45%;
+	margin-left: 8%;
+}
+#message {
+	
+	height: 100%;
+	margin: 1% 5% 0;
+	
+}
 
 form.email p {
 font-size: 15px;

@@ -12,7 +12,7 @@
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
     <link href='custom.css' rel='stylesheet' type='text/css'>
 </head>
-<body class=background>
+<body class="background">
 <header>
     <nav class="supportnav">
         <ul>
@@ -23,8 +23,9 @@
         </ul>
     </nav>
 </header>
-<div class="container">
-	<form class="email" action="mailer.php" method="post">
+<div class="container-fluid">
+<div id="contactbox" class="row">
+	<form id="mailer" class="email pull-left" action="mailer.php" method="post">
 		<p>Name:</p>
 		<input type="text" name="name" />
 		<p>E-mail:</p>
@@ -35,6 +36,9 @@
 		<textarea name="message"></textarea></p>
 		<input class="send" type="submit" value="Send">
 	</form>
+	<img id="message" src="./images/write.jpg" alt=""/>
+	
+</div>
 </div>
 <footer>
 		<a href="https://www.facebook.com/Oredornment"><img src="./images/Logomakr_4amN1P.png" alt="Facebook Logo" class="social-icon"></a>

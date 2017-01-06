@@ -5,10 +5,14 @@
 	text-align: center;
 	color: #fd4703;
 	font-family: 'Calligraffitti', cursive;
-	font-size: 60px;
+	font-size: 50px;
 	text-shadow: 1px 1px #ff0000;
 }
 
+
+nav {
+	padding: 5px 0px 30px 0;
+}
 
 
 #navul {
@@ -23,6 +27,7 @@ nav a#pull {
     width: 100%;
     position: relative;
   }
+  
 nav a#pull:after {
     content:"";
     background: url(./images/nav-icon.png) no-repeat;

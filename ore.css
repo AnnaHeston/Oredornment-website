@@ -24,9 +24,7 @@
 
 
 
-
-
-nav ul {
+nav {
 	font-family: 'Calligraffitti', cursive;
 	font-size: 25px;
 	list-style-type: none;
@@ -35,7 +33,11 @@ nav ul {
 	text-align: center;
 	width: 100%;
 	margin: auto;
-	/*padding: 25px;*/
+	
+}
+
+#navul {
+	padding-left: 0;
 }
 
 nav li {
@@ -254,10 +256,7 @@ div.desc {
 
 /*Contact*/
 
-#contactbox {
-	margin: 50px auto;
-	height: 600px;
-}
+
 
 #mailer {
 	border: solid 1px white;
@@ -265,9 +264,10 @@ div.desc {
 	margin-left: 8%;
 }
 
-.contact {
+#contactbox {
 	background-image: url("./images/rocks2.jpg");
     background-size: cover;
+	padding: 50px 0;
 	
 }
 
@@ -297,8 +297,8 @@ background: #f5f5f5;
 padding: 5px;
 border: 1px solid #bbb;
 border-radius: 5px;
-width: 400px;
-height: 250px;
+width: 210px;
+height: 100px;
 }
 
 form.email input.send {

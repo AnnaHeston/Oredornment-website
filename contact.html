@@ -3,14 +3,15 @@
 <head>
     <meta charset="utf-8">
     <title>OREdornment | Handmade Jewelry</title>
-    <link rel="stylesheet" href="./ore.css" />
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+	<link rel="stylesheet" href="./ore.css" />
+	<link rel="stylesheet" href="./responsive.css" />
     <link rel="shortcut icon" href="./images/Ologo.jpg" />
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.1/jquery.min.js"></script>
     <script type="text/javascript" src="./ore.js"></script>
-	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=Calligraffitti" rel="stylesheet">
 	<link href='https://fonts.googleapis.com/css?family=Lato:300,400,700' rel='stylesheet' type='text/css'>
-    <link href='custom.css' rel='stylesheet' type='text/css'>
+    
 </head>
 <body class="background">
 <header>
@@ -23,9 +24,9 @@
         </ul>
     </nav>
 </header>
-<div class="container-fluid">
+<div class="contact container-fluid">
 <div id="contactbox" class="row">
-	<form id="mailer" class="email pull-left" action="mailer.php" method="post">
+	<form id="mailer" class="email" action="mailer.php" method="post">
 		<p>Name:</p>
 		<input type="text" name="name" />
 		<p>E-mail:</p>
@@ -36,13 +37,11 @@
 		<textarea name="message"></textarea></p>
 		<input class="send" type="submit" value="Send">
 	</form>
-	<img id="message" src="./images/write.jpg" alt=""/>
-	
 </div>
 </div>
+</body>
 <footer>
 		<a href="https://www.facebook.com/Oredornment"><img src="./images/Logomakr_4amN1P.png" alt="Facebook Logo" class="social-icon"></a>
 		<a href="https://www.instagram.com/oredornment"><img src="./images/Logomakr_7SS89e.png" alt="Instagram Logo" class="social-icon"></a>
         <p>&copy; 2016 Anna Heston</p>
 </footer>
-</body>

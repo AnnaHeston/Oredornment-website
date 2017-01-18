@@ -18,3 +18,31 @@ $(window).resize(function(){
     menu.removeAttr('style');
   }
 }); });
+
+
+var $overlay= $('<div id="overlay"></div>');
+var $image = $("<img>");
+var $caption = $("<p></p>");
+
+$overlay.append($image);
+
+$overlay.append($caption);
+
+$('document').ready(function() {
+	$("body").append($overlay);
+})
+	
+
+$('document').ready(function() {
+	$(".gal a").click(function(event){
+		event.preventDefault();
+		var href= $(this).attr("href");
+		$image.attr("src", href);
+		$overlay.show();
+		var captionText = $(this).children("img").attr("title");
+		$caption.text(captionText);
+})});
+
+$overlay.click(function(){
+	$overlay.hide();
+});
